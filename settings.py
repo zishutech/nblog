@@ -218,8 +218,8 @@ STATIC_ROOT = os.path.join(PROJECT_ROOT, STATIC_URL.strip("/"))
 # Examples: "http://media.lawrence.com/media/", "http://example.com/media/"
 MEDIA_URL = STATIC_URL + "media/"
 DEFAULT_FILE_STORAGE = 'storages.backends.s3boto.S3BotoStorage'
-AWS_ACCESS_KEY_ID = 'AKIAIUEBZVMBS7UKEPIQ'
-AWS_SECRET_ACCESS_KEY = 'A515V8o+kjAmMJiuqZ2Th8J5Cjjxhs98JNTAqbIW'
+AWS_ACCESS_KEY_ID = 'xxxxxxx'
+AWS_SECRET_ACCESS_KEY = 'xxxxxx'
 AWS_STORAGE_BUCKET_NAME = 'notebookdata'
 
 # Absolute filesystem path to the directory that will hold user-uploaded files.
